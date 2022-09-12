@@ -24,5 +24,6 @@ public void enterpwd(String password) {
 }
 public void clicklogin() {
 	login.click();
+//click on login button 
 }
 }
