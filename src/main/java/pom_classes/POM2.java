@@ -11,7 +11,7 @@ public class POM2 {
 @FindBy(xpath = "//button[@class='button-orange wide']")private WebElement ctnbtn;
 
 //initialization
-public POM2(WebDriver driver) {
+public POM2(WebDriver driver) {//POM2 classes
 	PageFactory.initElements(driver,this);
 }
 //utilization
