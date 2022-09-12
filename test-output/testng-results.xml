@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[running verifyuserID]]>
+    </line>
+    <line>
+      <![CDATA[log out application]]>
+    </line>
+    <line>
+      <![CDATA[close the app]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-04T16:22:38 IST" name="Default suite" finished-at="2022-09-04T16:22:55 IST" duration-ms="16425">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T16:22:38 IST" name="Default test" finished-at="2022-09-04T16:22:55 IST" duration-ms="16425">
+      <class name="baseclass.Test_class">
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:baseclass.Test_class@4b45a2f5]" started-at="2022-09-04T16:22:38 IST" name="openbrowser" finished-at="2022-09-04T16:22:47 IST" duration-ms="8677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="loginToApp()[pri:0, instance:baseclass.Test_class@4b45a2f5]" started-at="2022-09-04T16:22:47 IST" name="loginToApp" finished-at="2022-09-04T16:22:51 IST" duration-ms="3823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method signature="verifyuserID()[pri:0, instance:baseclass.Test_class@4b45a2f5]" started-at="2022-09-04T16:22:51 IST" name="verifyuserID" finished-at="2022-09-04T16:22:55 IST" duration-ms="3777" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[running verifyuserID]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyuserID -->
+        <test-method is-config="true" signature="logOutApp()[pri:0, instance:baseclass.Test_class@4b45a2f5]" started-at="2022-09-04T16:22:55 IST" name="logOutApp" finished-at="2022-09-04T16:22:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[log out application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutApp -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:baseclass.Test_class@4b45a2f5]" started-at="2022-09-04T16:22:55 IST" name="closebrowser" finished-at="2022-09-04T16:22:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close the app]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- baseclass.Test_class -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
